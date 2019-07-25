@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alehkiz</title><link href="/" rel="alternate"></link><link href="feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2019-07-24T21:31:00-03:00</updated><entry><title>My super title</title><link href="comecando-com-pandas.html" rel="alternate"></link><published>2019-07-24T21:31:00-03:00</published><updated>2019-07-24T21:31:00-03:00</updated><author><name>Alexandre Santos</name></author><id>tag:None,2019-07-24:comecando-com-pandas.html</id><summary type="html">&lt;p class="first"&gt;Short version for index and feeds&lt;/p&gt;
-&lt;p&gt;### Olá mundo&lt;/p&gt;
-&lt;p class="last"&gt;## isso é um teste&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;... ... ...&lt;/p&gt;
-</content><category term="pandas"></category><category term="python"></category><category term="analytics"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alehkiz</title><link href="/" rel="alternate"></link><link href="feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2019-07-24T21:31:00-03:00</updated><entry><title>Adotando pastsd</title><link href="comecando-com-pandas.html" rel="alternate"></link><published>2019-07-24T21:31:00-03:00</published><updated>2019-07-24T21:31:00-03:00</updated><author><name>Alexandre Santos</name></author><id>tag:None,2019-07-24:comecando-com-pandas.html</id><summary type="html">&lt;p class="first last"&gt;Short version for index and feeds&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;There are two ways to specify the identifier:&lt;/p&gt;
+&lt;blockquote&gt;
+:::python
+print(&amp;quot;The triple-colon syntax will &lt;em&gt;not&lt;/em&gt; show line numbers.&amp;quot;)&lt;/blockquote&gt;
+&lt;p&gt;To display line numbers, use a path-less shebang instead of colons:&lt;/p&gt;
+&lt;blockquote&gt;
+#!python
+print(&amp;quot;The path-less shebang syntax &lt;em&gt;will&lt;/em&gt; show line numbers.&amp;quot;)&lt;/blockquote&gt;
+</content><category term="pandas"></category><category term="python"></category><category term="analytics"></category></entry><entry><title>Adotando pandas</title><link href="introducao.html" rel="alternate"></link><published>2019-07-24T21:31:00-03:00</published><updated>2019-07-24T21:31:00-03:00</updated><author><name>Alexandre Santos</name></author><id>tag:None,2019-07-24:introducao.html</id><summary type="html">&lt;p&gt;Os passos para adotar e se apaixonar por Pandas&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Adotando o padas&lt;/h1&gt;
+&lt;p&gt;Primeiro, temos que importar, por convenção apelidamos de pd. Isso facilita na utilização da variável.Também podemos chamá-lo simplesmente de &lt;strong&gt;&lt;em&gt;p&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;pandas&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;pd&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="pandas"></category><category term="python"></category><category term="analytics"></category></entry></feed>

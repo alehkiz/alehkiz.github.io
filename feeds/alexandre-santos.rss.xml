@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>Alehkiz - Alexandre Santos</title><link>/</link><description></description><lastBuildDate>Wed, 24 Jul 2019 21:31:00 -0300</lastBuildDate><item><title>Adotando pastsd</title><link>comecando-com-pandas.html</link><description>&lt;p&gt;There are two ways to specify the identifier:&lt;/p&gt;
+&lt;blockquote&gt;
+:::python
+print(&amp;quot;The triple-colon syntax will &lt;em&gt;not&lt;/em&gt; show line numbers.&amp;quot;)&lt;/blockquote&gt;
+&lt;p&gt;To display line numbers, use a path-less shebang instead of colons:&lt;/p&gt;
+&lt;blockquote&gt;
+#!python
+print(&amp;quot;The path-less shebang syntax &lt;em&gt;will&lt;/em&gt; show line numbers.&amp;quot;)&lt;/blockquote&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alexandre Santos</dc:creator><pubDate>Wed, 24 Jul 2019 21:31:00 -0300</pubDate><guid isPermaLink="false">tag:None,2019-07-24:comecando-com-pandas.html</guid><category>pandas</category><category>python</category><category>analytics</category></item><item><title>Adotando pandas</title><link>introducao.html</link><description>&lt;h1&gt;Adotando o padas&lt;/h1&gt;
+&lt;p&gt;Primeiro, temos que importar, por convenção apelidamos de pd. Isso facilita na utilização da variável.Também podemos chamá-lo simplesmente de &lt;strong&gt;&lt;em&gt;p&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;pandas&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;pd&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alexandre Santos</dc:creator><pubDate>Wed, 24 Jul 2019 21:31:00 -0300</pubDate><guid isPermaLink="false">tag:None,2019-07-24:introducao.html</guid><category>pandas</category><category>python</category><category>analytics</category></item></channel></rss>

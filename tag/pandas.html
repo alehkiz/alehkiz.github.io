@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
         <meta charset="utf-8" />
         <title>Alehkiz - pandas</title>
         <link rel="stylesheet" href="../theme/css/main.css" />
         <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Alehkiz Atom Feed" />
+        <link href="/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Alehkiz RSS Feed" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 </head>
 
 <body id="index" class="home">
@@ -12,56 +17,66 @@
                 <h1><a href="../">Alehkiz </a></h1>
                 <nav><ul>
                     <li><a href="../category/python.html">python</a></li>
-                </ul></nav>
+                </ul>
+                </nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="../comecando-com-pandas.html">My super title</a></h1>
+                    <h1 class="entry-title"><a href="../comecando-com-pandas.html">Adotando pastsd</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2019-07-24T21:31:00-03:00">
-                Published: qua 24 julho 2019
-        </abbr>
-		<br />
-        <abbr class="modified" title="2019-07-24T21:31:00-03:00">
-                Updated: qua 24 julho 2019
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="../author/alexandre-santos.html">Alexandre Santos</a>
-        </address>
-<p>In <a href="../category/python.html">python</a>.</p>
-<p>tags: <a href="../tag/pandas.html">pandas</a> <a href="../tag/python.html">python</a> <a href="../tag/analytics.html">analytics</a> </p>
-</footer><!-- /.post-info --><p>... ... ...</p>
+        <span>qua 24 julho 2019</span>
+        	<span>| by <a class="url fn" href="../author/alexandre-santos.html">Alexandre Santos</a></span>
+<span>| tags: <a href="../tag/pandas.html">pandas</a><a href="../tag/python.html">python</a><a href="../tag/analytics.html">analytics</a></span>
+</footer><!-- /.post-info --><p>There are two ways to specify the identifier:</p>
+<blockquote>
+:::python
+print(&quot;The triple-colon syntax will <em>not</em> show line numbers.&quot;)</blockquote>
+<p>To display line numbers, use a path-less shebang instead of colons:</p>
+<blockquote>
+#!python
+print(&quot;The path-less shebang syntax <em>will</em> show line numbers.&quot;)</blockquote>
                 </article>
             </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Outras publicação</h1>
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="../introducao.html" rel="bookmark"
+                           title="Permalink to Adotando pandas">Adotando pandas</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <span>qua 24 julho 2019</span>
+        	<span>| by <a class="url fn" href="../author/alexandre-santos.html">Alexandre Santos</a></span>
+<span>| tags: <a href="../tag/pandas.html">pandas</a><a href="../tag/python.html">python</a><a href="../tag/analytics.html">analytics</a></span>
+</footer><!-- /.post-info -->                <p>Os passos para adotar e se apaixonar por Pandas</p>
+                <a class="readmore" href="../introducao.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+            </ol><!-- /#posts-list -->
+<p class="paginator">
+    Page 1 / 1
+</p>
+            </section><!-- /#content -->
         <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>links</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
                 <div class="social">
                         <h2>social</h2>
                         <ul>
                             <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            <li><a href="/feeds/all.rss.xml" type="application/rss+xml" rel="alternate">rss feed</a></li>
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
+                            <li><a href="http://github.com/alehkiz">Github</a></li>
+                            <li><a href="https://www.linkedin.com/in/alexandresl/">Linkedin</a></li>
                         </ul>
                 </div><!-- /.social -->
         </section><!-- /#extras -->
 
         <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+                <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme <a href="https://github.com/blueicefield/pelican-blueidea/">blueidea</a>, inspired by the default theme.</p>
         </footer><!-- /#contentinfo -->
 
 </body>
