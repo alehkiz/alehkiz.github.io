@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alehkiz - python</title><link href="https://alehkiz.github.io/" rel="alternate"></link><link href="https://alehkiz.github.io/feeds/python.atom.xml" rel="self"></link><id>https://alehkiz.github.io/</id><updated>2019-07-24T21:31:00-03:00</updated><entry><title>My super title</title><link href="https://alehkiz.github.io/comecando-com-pandas.html" rel="alternate"></link><published>2019-07-24T21:31:00-03:00</published><updated>2019-07-24T21:31:00-03:00</updated><author><name>Alexandre Santos</name></author><id>tag:alehkiz.github.io,2019-07-24:/comecando-com-pandas.html</id><summary type="html">&lt;p class="first"&gt;Short version for index and feeds&lt;/p&gt;
+&lt;p&gt;### Olá mundo&lt;/p&gt;
+&lt;p class="last"&gt;## isso é um teste&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;... ... ...&lt;/p&gt;
+</content><category term="pandas"></category><category term="python"></category><category term="analytics"></category></entry></feed>
